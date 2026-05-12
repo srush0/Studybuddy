@@ -1,0 +1,15 @@
+{
+    "name": "studybuddy.com.srush",
+    "description": "Student productivity and academic management app.",
+    "architecture": "$ENV{ARCH}",
+    "title": "StudyBuddy",
+    "hooks": {
+        "studybuddy": {
+            "apparmor": "studybuddy.apparmor",
+            "desktop":  "studybuddy.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Srushti Kulkarni <kulkarnikanak0@gmail.com>",
+    "framework" : "$ENV{CLICK_FRAMEWORK}"
+}
